@@ -2,12 +2,12 @@
   "name": "my-project-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joshuadorley.github.io/my-project-react", 
+  "homepage": "https://joshuadorley.github.io/my-project-react",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "gh-pages": "^4.0.0"
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
@@ -17,8 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",  
-    "deploy": "gh-pages -d build" 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
